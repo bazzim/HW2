@@ -15,8 +15,8 @@ LIMIT 1;
 
 
 -- Exercise3: What was the cost of the 50th most expensive damage?
--- Answer: 6014
-SELECT cost
+-- Answer: 5345
+SELECT DISTINCT cost
 FROM birdstrikes
 ORDER BY cost desc
 LIMIT 49, 1;
